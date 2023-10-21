@@ -1,4 +1,4 @@
-# Memory monitor>
+# Memory monitor
 
 Script controls memory usage and sends request to API if memory is exceeded
 
@@ -8,9 +8,9 @@ Script controls memory usage and sends request to API if memory is exceeded
 ```
 python -m venv venv
 source venv/Scripts/Activate
-pip install requirements.txt
+pip install -r requirements.txt
 ```
-##### Create .env file, for example:
+##### Next create .env file. Here is an example:
 ```
 ALERTS_LOGS=alerts.log
 ALERT_PERCENT=50
